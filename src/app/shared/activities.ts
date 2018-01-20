@@ -32,6 +32,5 @@ export const SAVED_ACTIVITIES: IActivity[] = [
         'distance': 4.5,
         'comments': 'Nice day, cool temps',
         'gpxData': '../../assets/gpx/Morning_Ride-2.gpx'
-    },
-    
+    }
 ];
