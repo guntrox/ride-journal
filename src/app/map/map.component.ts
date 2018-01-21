@@ -8,7 +8,7 @@ import { ActivatedRoute } from '@angular/router';
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.css']
 })
-export class MapComponent implements OnInit {
+export class MapComponent implements OnInit, AfterViewInit {
 
   constructor(private _mapService: MapService,
               private _route: ActivatedRoute) { }
@@ -23,6 +23,7 @@ export class MapComponent implements OnInit {
   ngOnInit() {
     this.activity = this._mapService.getActivity(
       +this._route.snapshot.params['id']);
+      console.log('Map component is initialized');
   }
 
   ngAfterViewInit() {
@@ -32,5 +33,6 @@ export class MapComponent implements OnInit {
     this.activityDistance = this.activity.distance;
     this.activityDate = this.activity.date;
     this.gpx = this.activity.gpxData;
+    console.log('Map component ngAfterViewInit called');
   }
 }
