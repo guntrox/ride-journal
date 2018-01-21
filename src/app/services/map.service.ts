@@ -22,18 +22,18 @@ export class MapService {
 
   plotActivity(id: number) {
     const myStyle = {
-      'color': '#3949AB',
-      'weight': 5,
+      'color': '#062a96',
+      'weight': 3,
       'opacity': 0.95
     };
 
     const map = L.map('map').setView(defaultCoords, defaultZoom);
 
     map.maxZoom = 100;
-    L.tileLayer('https://api.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    L.tileLayer('https://api.mapbox.com/v4/{id}/{z}/{x}/{y}@2x.png?access_token={accessToken}', {
       attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors',
       maxZoom: 18,
-      id: 'mapbox.outdoors',
+      id: 'mapbox.pencil',
       accessToken: apiToken
     }).addTo(map);
 

@@ -22,8 +22,8 @@ export const SAVED_ACTIVITIES: IActivity[] = [
         'name': 'Evening Ride',
         'date': new Date('08/23/2017'),
         'distance': 9.0,
-        'comments': 'Good evening ride',
-        'gpxData': '../../assets/gpx/EveningRide.gpx'
+        'comments': 'Santa Cruz Testing, Billy\'s bike',
+        'gpxData': '../../assets/gpx/Evening_Ride.gpx'
     },
     {
         'id': 4,
