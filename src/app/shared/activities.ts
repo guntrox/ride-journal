@@ -14,7 +14,7 @@ export const SAVED_ACTIVITIES: IActivity[] = [
         'name': 'Morning Ride',
         'date': new Date('08/23/2017'),
         'distance': 8.0,
-        'comments': 'Nice day, cool temps',
+        'comments': 'Nice morning ride',
         'gpxData': '../../assets/gpx/Morning_Ride.gpx'
     },
     {
@@ -22,7 +22,7 @@ export const SAVED_ACTIVITIES: IActivity[] = [
         'name': 'Evening Ride',
         'date': new Date('08/23/2017'),
         'distance': 9.0,
-        'comments': 'Nice day, cool temps',
+        'comments': 'Good evening ride',
         'gpxData': '../../assets/gpx/EveningRide.gpx'
     },
     {
@@ -30,7 +30,7 @@ export const SAVED_ACTIVITIES: IActivity[] = [
         'name': 'Morning_Ride-2',
         'date': new Date('08/22/2017'),
         'distance': 4.5,
-        'comments': 'Nice day, cool temps',
+        'comments': 'First morning ride',
         'gpxData': '../../assets/gpx/Morning_Ride-2.gpx'
     }
 ];
